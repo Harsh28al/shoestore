@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shoe store</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>	
+	<link rel="stylesheet" type="text/css" href="Master.css">
+
+	<style type="text/css">
+		.carousel-inner img {
+     		width: 100%;
+      		height: 460px;
+ 		}
+
+ 		#zoom:hover{
+ 			-webkit-transform: scaleX(-1);
+  			transform: scaleX(-1);
+ 		}	
+
+ 		#link:hover{
+ 			font-size: 25px;
+ 		}
+
+		 .navbar-nav .nav-link {
+        font-size: 18px; 
+    }
+
+    .navbar-nav .nav-link:hover {
+        font-size: 20px; 
+    }
+
+    .card-img-top {
+    height: 300px; 
+    width: 100%;   
+    object-fit: cover; 
+    }
+	</style>
+</head>
+<body>
+
+	<header>
+        <div class="container">
+            <div class="row">
+				<div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+					<img src="shoestore.png" class="img-fluid mx-auto" height="50" width="190">
+				</div>
+
+				<div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6 d-flex align-items-center">
+					<form class="form-inline" style="margin-left: 60px;">
+						<div class="input-group">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search....">
+							<button class="btn btn-success" type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+		<div class="container-fluid">
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a class="nav-link"  href="Home.html" style="width: 110px; text-align: center;">HOME</a></li>
+					<li class="nav-item"><a class="nav-link"  href="mens.html" style="width: 160px; text-align: center;">MENS</a></li>
+					<li class="nav-item"><a class="nav-link"  href="kids.html" style="width: 160px; text-align: center;">KIDS</a></li>
+					<li class="nav-item active" style="border-bottom: 3px solid #77b300; font-size: 17px;"></li><a class="nav-link"  href="women.html" style="width: 130px; text-align: center;">WOMENS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sale.html" style="width: 130px; text-align: center;">SALE</a></li>
+					<li class="nav-item"><a class="nav-link"  href="login.html" style="width: 110px; text-align: center;">LOGIN</a></li>
+				</ul>
+			</div>	
+		</div>
+	</nav>
+
+    <section id="womens-section">
+        <div class="container">
+            <h2 class="text-center my-5" style="font-weight: bold; color: #d63384;">Women's Collection</h2>
+    
+            <div class="row mb-5">
+                <div class="col-12">
+                    <p style="font-size: 18px; line-height: 1.8; color: #555; text-align: justify;">
+                        Explore our Women's Collection, where fashion meets function. Each pair is designed to empower your every step, blending
+                        timeless elegance with contemporary flair. Whether you're looking for bold statement heels, versatile flats, or sturdy
+                        boots, our collection is crafted to enhance your style and support your journey. Step into sophistication with Shoe Store.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="women1.jpg" class="card-img-top img-fluid" alt="Product 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Elegant Heels</h5>
+                            <p class="card-text">Rs 5500</p>
+                            <a href="#" class="btn btn-pink">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="women2.jpg" class="card-img-top img-fluid" alt="Product 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Comfortable Flats</h5>
+                            <p class="card-text">Rs 3000</p>
+                            <a href="#" class="btn btn-pink">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="women3.jpg" class="card-img-top img-fluid" alt="Product 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Stylish Boots</h5>
+                            <p class="card-text">Rs 7500</p>
+                            <a href="#" class="btn btn-pink">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="women4.jpg" class="card-img-top img-fluid" alt="Product 4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Running Shoes</h5>
+                            <p class="card-text">Rs 5000</p>
+                            <a href="#" class="btn btn-pink">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row mt-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="women5.jpg" class="card-img-top img-fluid" alt="Product 5">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ankle Boots</h5>
+                            <p class="card-text">Rs 8500</p>
+                            <a href="#" class="btn btn-pink">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="women6.jpg" class="card-img-top img-fluid" alt="Product 6">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Casual Sneakers</h5>
+                            <p class="card-text">Rs 4000</p>
+                            <a href="#" class="btn btn-pink">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="women7.jpg" class="card-img-top img-fluid" alt="Product 7">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Leather Sandals</h5>
+                            <p class="card-text">Rs 3500</p>
+                            <a href="#" class="btn btn-pink">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="women8.jpg" class="card-img-top img-fluid" alt="Product 8">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Elegant Slippers</h5>
+                            <p class="card-text">Rs 2500</p>
+                            <a href="#" class="btn btn-pink">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4>@ 2024 Shoe Store . All Copy Rights Reserved. </h4>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
+
+
+</body>
+</html>
